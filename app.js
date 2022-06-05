@@ -114,7 +114,8 @@ function onGetResponse(err, res) {
     showAlert(err, 'error-msg');
   }
   if(!res.articles.length){
-    alert('новостей неть')
+    alert('новостей неть');
+    
     return
   }
   console.log(res.articles);
